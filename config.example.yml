@@ -1,0 +1,4 @@
+gitconfig:
+  - {name: "user.name",  value: "Your name here" }
+  - {name: "user.email", value: "demo@email.com" }
+  - {name: "ui.color",   value: "u'True'" }

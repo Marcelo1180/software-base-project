@@ -1,4 +1,5 @@
 # Ignore base projects to independiente versioning
+config.yml
 .vagrant/
 django-base-backend/
 

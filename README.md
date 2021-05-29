@@ -2,7 +2,7 @@
 
 This project was tested in MacOsX
 
-## Technologies
+## Requirements
   - Git 2.24
   - Vagrant 2.2
   - Ansible 2.10
