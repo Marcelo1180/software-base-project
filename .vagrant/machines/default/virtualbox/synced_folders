@@ -1,1 +1,0 @@
-{"nfs":{"/vagrant":{"disabled":false,"guestpath":"/vagrant","hostpath":"/System/Volumes/Data/Users/marcelo/Marcelo/05 software/01 Web Develop/software-base-project","type":"nfs","__vagrantfile":true,"map_uid":501,"map_gid":20,"nfs_version":3,"nfs_udp":true,"uuid":"502188409"}}}

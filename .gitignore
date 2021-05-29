@@ -1,5 +1,7 @@
 # Ignore base projects to independiente versioning
+.vagrant/
 django-base-backend/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
