@@ -1,0 +1,25 @@
+- hosts: all
+  become: yes
+  remote_user: vagrant
+  gather_facts: false
+  tasks:
+
+    # - name: Cloning backend
+    #   git:
+    #     repo: 'https://github.com/Marcelo1180/django-base-backend.git'
+    #     dest: /tmp/backend
+    #     clone: yes
+    #     update: no
+
+    - name: Install python3
+      apt:
+        pkg:
+        - python3
+        - python3-pip
+        - python-virtualenv
+
+    - name: Making virtualenv
+      pip:
+        requirements: /vagrant/django-base-backend/requirements.txt
+        virtualenv: /home/vagrant/.venv
+        virtualenv_python: python3
